@@ -47,7 +47,7 @@ public class ComparacionString {
      if(nombre == nombre1){
          
      }
-     //TODO: Hacer alguna operacion que permita evaluar alguno de los casos anteriores
+    
         
     }
    
