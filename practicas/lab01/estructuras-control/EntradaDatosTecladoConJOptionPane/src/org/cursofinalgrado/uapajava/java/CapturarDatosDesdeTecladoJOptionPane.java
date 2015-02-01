@@ -34,6 +34,14 @@ public class CapturarDatosDesdeTecladoJOptionPane {
          * En caso de ser mayor de 60 escribir el siguiente mensaje:
          *  Hola 'Nombre Persona', eres de avanzada edad
          */
+        int edadEntero = Integer.parseInt(edad);
+        
+        if(edadEntero <= 60){
+            mensaje = "Hola " +nombre+", todavia eres muy joven";
+        } else if(edadEntero > 60){
+            mensaje = "Hola " +nombre+", eres de avanzada edad";
+        }
+        
   
         JOptionPane.showMessageDialog(null, mensaje);
     }
