@@ -3,14 +3,7 @@ package org.cursofinalgrado.uapa.java.arreglo;
 public class ArregloII {
     public static void main(String[] args) {
         
-        int [] notas = new int [10]; // crear un arreglo de enteros
-
-        notas[0] = 100;
-        notas[1] =  80;
-        notas[2] = 90;
-        notas[3] =  75;
-        //etc      
-           
+          
         
         int[] notasAbr = {100, 80, 90, 75, 60, 50, 70, 80, 90,100};
 
