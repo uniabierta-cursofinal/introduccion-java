@@ -6,6 +6,7 @@
 
 package cursofinalgrado.uapa.java.poo.empresa.nomina;
 
+import cursofinalgrado.uapa.java.poo.empresa.nomina.objetos.Consultor;
 import cursofinalgrado.uapa.java.poo.empresa.nomina.objetos.Empleado;
 
 /**
@@ -22,13 +23,30 @@ public class Principal {
         empleado.setCantidadHoras(10.00);
         empleado.setSueldo(25000.00);
         
-        StringBuilder info = new StringBuilder()
+      final  StringBuilder info = new StringBuilder(45)
                 .append("El sueldo de ")
                 .append(empleado.getNombre())
                 .append(" es : ")
                 .append(empleado.obtenerSueldo());
         
         System.out.println(" "+info.toString());
+  
+        
+        Consultor consultor = new Consultor();
+        consultor.setNombre("Juan Genao");
+        consultor.setNoEmpleado("25065");
+        consultor.setCedula("001-000000-1");
+        consultor.setCantidadHora(25);
+        consultor.setPrecioHora(400);
+        
+        final StringBuilder consultorMsr = new StringBuilder(45)
+                .append("El sueldo de ")
+                .append(consultor.getNombre())
+                .append(" es : ")
+                .append(consultor.obtenerSueldo());
+        
+        System.out.println(" "+consultorMsr.toString());
+        
         
     }
 }
