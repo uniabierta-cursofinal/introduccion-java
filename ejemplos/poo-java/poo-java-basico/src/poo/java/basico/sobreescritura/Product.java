@@ -13,9 +13,10 @@ public class Product {
 
     public Product(String code, String description, double price) {
 
-        this.setCode(code);
-        this.setDescription(description);
-        this.setPrice(price);
+        this.code = code;
+        this.description = description;
+        this.price = price;
+        
     }
     
     public Product(){
@@ -47,6 +48,7 @@ public class Product {
         this.price = price;
     }
     
+    @Override
     public String toString(){
         return description;
     }
