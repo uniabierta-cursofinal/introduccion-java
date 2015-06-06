@@ -13,10 +13,6 @@ public class TipoCollection {
         
         for(String lenguaje : col){
             System.out.println(lenguaje);
-            
         }
-
-        
-        
     }
 }
